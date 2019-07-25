@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guestdetail"
+    tools:context=".BookingAndRatingDetails.VIewGuestDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/amountToPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:text="Downloading data from server, Please Wait....."
+            android:textColor="#020202"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:id="@+id/checkIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:fontFamily= "sans-serif"
+            android:textSize="20sp"
+            android:textColor="#050505"
+            />
+
+        <TextView
+            android:id="@+id/checkOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#0d0d0c"
+            android:textSize="20sp"
+             />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#080808"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#060606"
+             />
+
+        <TextView
+            android:id="@+id/guest_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#060606"
+            />
+
+        <TextView
+            android:id="@+id/paidyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#0b0b0b"
+             />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#060606"
+             />
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#0db904"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:textColor="#121211"
+             />
+
+        <TextView
+            android:id="@+id/room_Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="8dp"
+            android:paddingTop="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#0b0b0b"
+            android:textSize="20sp"
+             />
+
+    </LinearLayout>
+
+</ScrollView>

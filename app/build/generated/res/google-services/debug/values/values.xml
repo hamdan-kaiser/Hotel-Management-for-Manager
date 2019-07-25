@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">294529742226-10fgtc9pdggjlqui2ff77ua6fgd948pr.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://hotel-management-system-55f76.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">294529742226</string>
+    <string name="google_api_key" translatable="false">AIzaSyBr4VraOiov6O3zCNJ5WbPqTGzWgeB47qo</string>
+    <string name="google_app_id" translatable="false">1:294529742226:android:11b2068d7f75a71d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBr4VraOiov6O3zCNJ5WbPqTGzWgeB47qo</string>
+    <string name="google_storage_bucket" translatable="false">hotel-management-system-55f76.appspot.com</string>
+    <string name="project_id" translatable="false">hotel-management-system-55f76</string>
+</resources>

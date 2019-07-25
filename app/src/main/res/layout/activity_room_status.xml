@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomStatus.RoomStatus"
+    android:orientation="vertical"
+    android:background="@drawable/main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/statusSpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/view_Floor_No"></Spinner>
+        <TextView
+            android:id="@+id/view_Floor_No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="14sp"
+            android:text="Floor No:"
+            android:textColor="#294d6b"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/floorTextView"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10sp"
+            android:layout_toEndOf="@+id/statusSpin"
+            android:background="@drawable/capsule"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:padding="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/roomNoStatusSpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/view_Room_No"/>
+        <TextView
+            android:id="@+id/view_Room_No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="14sp"
+            android:text="Room No:"
+            android:textColor="#294d6b"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room_No_TextView"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10sp"
+            android:layout_toEndOf="@+id/roomNoStatusSpin"
+            android:background="@drawable/capsule"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="15dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/floorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#294d6b"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <TextView
+                android:id="@+id/roomText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#294d6b"/>
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#294d6b"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <TextView
+                android:id="@+id/typeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#294d6b"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="design and developed by Codesquad©all rights reserved"
+        android:textSize="15sp"
+        android:textColor="#2a4e70"
+        android:layout_marginTop="300sp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

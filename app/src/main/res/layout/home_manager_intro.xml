@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manager_home"
+    tools:context=".Home_Manager">
+
+    <include layout="@layout/app_bar_into" />
+
+    <Button
+        android:id="@+id/book_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/capsule_button"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="View Booking List"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/room_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/book_list"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/capsule_button"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Update Room"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/room_avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/room_add"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/capsule_button"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:padding="14dp"
+        android:text="Room Status"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

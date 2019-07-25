@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294529742226",
+    "firebase_url": "https://hotel-management-system-55f76.firebaseio.com",
+    "project_id": "hotel-management-system-55f76",
+    "storage_bucket": "hotel-management-system-55f76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294529742226:android:11b2068d7f75a71d",
+        "android_client_info": {
+          "package_name": "com.example.virus.hotelmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294529742226-l2fcr4qcticscmjufius88nnecvgthm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.virus.hotelmanagementsystem",
+            "certificate_hash": "701680edfaf78bb77648a7c99eeae7b5d2b65739"
+          }
+        },
+        {
+          "client_id": "294529742226-10fgtc9pdggjlqui2ff77ua6fgd948pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4VraOiov6O3zCNJ5WbPqTGzWgeB47qo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294529742226-10fgtc9pdggjlqui2ff77ua6fgd948pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

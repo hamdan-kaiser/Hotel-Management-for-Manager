@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".AddRoom.AddRoomActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/floorSpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/view_floor"></Spinner>
+            <TextView
+                android:id="@+id/view_floor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14sp"
+                android:text="Floor No:"
+                android:textColor="#3d5199"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/floor"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10sp"
+                android:layout_toEndOf="@+id/floorSpin"
+                android:background="@drawable/capsule"
+                android:inputType="number"
+                android:maxLength="2"
+                android:maxLines="1"
+                android:padding="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp">
+
+            <Spinner
+                android:id="@+id/roomSpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/view_room"></Spinner>
+
+            <TextView
+                android:id="@+id/view_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14sp"
+                android:text="Room No:"
+                android:textColor="#3d5199"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10sp"
+                android:layout_toEndOf="@+id/roomSpin"
+                android:background="@drawable/capsule"
+                android:maxLines="1"
+                android:padding="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <Spinner
+                android:id="@+id/availableSpin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/view_status"></Spinner>
+
+            <TextView
+                android:id="@+id/view_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="14sp"
+                android:text="Status:"
+                android:textColor="#3d5199"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10sp"
+                android:layout_toEndOf="@+id/availableSpin"
+                android:background="@drawable/capsule"
+                android:padding="15dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/view_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:padding="14sp"
+                android:text="Room Description:"
+                android:textColor="#3d5199"
+                android:fontFamily="sans-serif-condensed"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/view_type"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/capsule"
+                android:hint="e.g Master Bed, TV, A/C..."
+                android:padding="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/okay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/capsule_button_for_add_room"
+                android:gravity="center"
+                android:text="Set"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#f9f4f4"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

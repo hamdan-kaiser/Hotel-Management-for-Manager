@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingAndRatingDetails.VIewGuestDetails">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/amountToPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Payment Detail:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Check In:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Check Out:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Contact:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Discount:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/guest_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Guest Name:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/paidyn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Paid? :"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Rating:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Review:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room_No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Room No:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room_Type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:paddingStart="8dp"
+            android:paddingTop="14sp"
+            android:text="Room Type:"
+            android:textColor="#305b1e"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,4 @@
+#Fri Aug 10 16:45:03 BDT 2018
+base.0=G\:\\HotelManagementSystem\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.0=classes.dex
+renamed.0=classes.dex

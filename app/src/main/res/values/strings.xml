@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Hotel Demartin Manager Assistant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="string">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+    <string-array name="floor_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <!--<item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>-->
+    </string-array>
+
+    <string-array name="floor_number_1">
+        <item>1A</item>
+        <item>1B</item>
+        <item>1C</item>
+        <item>1D</item>
+        <item>1E</item>
+    </string-array>
+
+    <string-array name="floor_number_2">
+
+        <item>2A</item>
+        <item>2B</item>
+        <item>2C</item>
+        <item>2D</item>
+        <item>2E</item>
+    </string-array>
+
+    <string-array name="floor_number_3">
+        <item>3A</item>
+        <item>3B</item>
+        <item>3C</item>
+        <item>3D</item>
+        <item>3E</item>
+    </string-array>
+
+    <string-array name="floor_number_4">
+        <item>4A</item>
+        <item>4B</item>
+        <item>4C</item>
+        <item>4D</item>
+        <item>4E</item>
+    </string-array>
+    <string-array name="floor_number_5">
+        <item>5A</item>
+        <item>5B</item>
+        <item>5C</item>
+        <item>5D</item>
+        <item>5E</item>
+    </string-array>
+    <!--<string-array name="floor_number_6">
+        <item>6A</item>
+        <item>6B</item>
+        <item>6C</item>
+        <item>6D</item>
+        <item>6E</item>
+    </string-array>
+    <string-array name="floor_number_7">
+        <item>7A</item>
+        <item>7B</item>
+        <item>7C</item>
+        <item>7D</item>
+        <item>7E</item>
+    </string-array>
+    <string-array name="floor_number_8">
+        <item>8A</item>
+        <item>8B</item>
+        <item>8C</item>
+        <item>8D</item>
+        <item>8E</item>
+    </string-array>
+    <string-array name="floor_number_9">
+        <item>9A</item>
+        <item>9B</item>
+        <item>9C</item>
+        <item>9D</item>
+        <item>9E</item>
+    </string-array>
+    <string-array name="floor_number_ten">
+        <item>10A</item>
+        <item>10B</item>
+        <item>10C</item>
+        <item>10D</item>
+        <item>10E</item>
+    </string-array>
+    <string-array name="floor_number_eleven">
+        <item>11A</item>
+        <item>11B</item>
+        <item>11C</item>
+        <item>11D</item>
+        <item>11E</item>
+    </string-array>
+    <string-array name="floor_number_twelve">
+        <item>12A</item>
+        <item>12B</item>
+        <item>12C</item>
+        <item>12D</item>
+        <item>12E</item>
+    </string-array>-->
+
+    <string-array name="status">
+        <item>Available</item>
+        <item>Reserved</item>
+        <item>N/A</item>
+    </string-array>
+
+</resources>

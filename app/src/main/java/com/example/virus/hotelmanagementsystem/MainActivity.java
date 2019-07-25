@@ -20,7 +20,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import static com.example.virus.hotelmanagementsystem.DatabaseModel.AllStaticNames.isUserLoggedIn;
 
-
 /**
  * A Hotel Management System Application
  * This application is made for Managers only
